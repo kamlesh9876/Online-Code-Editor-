@@ -1,70 +1,330 @@
-# Getting Started with Create React App
+# CodeEditor Pro 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A professional-grade online code editor with real-time collaboration, multi-language support, and stunning visual design.**
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+![CodeEditor Pro](https://img.shields.io/badge/CodeEditor-Pro-blue?style=for-the-badge&logo=visual-studio-code)
+![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=for-the-badge&logo=node.js)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-### `npm start`
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://your-demo-link.com)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/codeeditor-pro?style=for-the-badge&logo=github)](https://github.com/yourusername/codeeditor-pro)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🌟 Why CodeEditor Pro?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CodeEditor Pro isn't just another code editor—it's a **complete development environment** in your browser. Built with modern technologies and designed for both beginners and professional developers, it combines the power of desktop IDEs with the convenience of web-based tools.
 
-### `npm run build`
+### 🎯 Perfect For:
+- **Learning to code** with instant feedback
+- **Quick prototyping** and testing ideas
+- **Teaching programming** with live examples
+- **Collaborative coding** sessions
+- **Code interviews** and technical assessments
+- **API testing** and documentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Key Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎨 **Professional Interface**
+- **Glass Morphism Design**: Modern translucent UI with blur effects
+- **Dark Theme**: Eye-friendly dark mode with gradient accents
+- **Responsive Layout**: Seamlessly adapts to any screen size
+- **Split Pane View**: Adjustable editor and output panels
+- **Font Size Control**: Dynamic text sizing (10px-24px)
+- **Status Bar**: Real-time line count and execution status
 
-### `npm run eject`
+### 💻 **Multi-Language Support**
+- **JavaScript** (ES6+ with console.log handling)
+- **Python** (Pyodide integration with stdout capture)
+- **HTML** (Live preview with iframe rendering)
+- **CSS** (Comprehensive preview with demo elements)
+- **Syntax Highlighting**: Professional code coloring
+- **Auto-completion**: Intelligent code suggestions
+- **Error Highlighting**: Real-time error detection
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🚀 **Advanced Code Execution**
+- **Browser-Based**: No server setup required for frontend
+- **Real-Time Output**: Instant code execution results
+- **Error Handling**: Comprehensive error reporting
+- **HTML/CSS Preview**: Live rendering in iframe
+- **Python Console**: Full stdout capture and display
+- **JavaScript Debugging**: Enhanced console.log support
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🤝 **Collaboration Features**
+- **Real-Time Sync**: Code changes broadcast instantly
+- **Session Management**: Join/create coding sessions
+- **Cursor Tracking**: See other users' cursor positions
+- **User Presence**: Live user list with status indicators
+- **WebSocket Communication**: Low-latency real-time updates
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔌 **Backend Integration**
+- **RESTful API**: Complete CRUD operations
+- **GraphQL Support**: Flexible data querying
+- **MongoDB Integration**: Persistent code snippet storage
+- **Redis Caching**: Optimized session management
+- **Health Monitoring**: Service status endpoints
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Technology Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Frontend
+```javascript
+React 19.1.0          // Modern UI framework
+CodeMirror 6          // Professional code editor
+TailwindCSS          // Utility-first styling
+Fira Code            // Developer-friendly font
+Inter                // Modern UI typography
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Backend
+```javascript
+Node.js 18+          // Runtime environment
+Express 4.18.2       // Web framework
+MongoDB              // NoSQL database
+Redis                // In-memory cache
+WebSocket            // Real-time communication
+GraphQL              // Query language
+```
 
-### Code Splitting
+### Development Tools
+```javascript
+ESLint               // Code quality
+Prettier             // Code formatting
+Hot Module Replacement // Instant updates
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🚀 Quick Start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Prerequisites
+- **Node.js** 16+ 
+- **npm** or **yarn**
+- **MongoDB** (optional, for full features)
+- **Redis** (optional, for collaboration)
 
-### Making a Progressive Web App
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/codeeditor-pro.git
+cd codeeditor-pro
 
-### Advanced Configuration
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Start development servers
+npm run dev
+```
 
-### Deployment
+### Individual Server Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+# Backend Server
+cd backend
+npm install
+npm start
+# → http://localhost:5000
 
-### `npm run build` fails to minify
+# Frontend Server  
+cd frontend
+npm install
+npm start
+# → http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📖 Usage Guide
+
+### Basic Usage
+1. **Select Language**: Choose from JavaScript, Python, HTML, or CSS
+2. **Write Code**: Start typing in the editor with syntax highlighting
+3. **Run Code**: Press `Ctrl+Enter` or click the "Run Code" button
+4. **View Output**: See results in the output panel or preview
+
+### Advanced Features
+
+#### 🎨 CSS Preview
+```css
+/* Your CSS automatically applies to rich demo content */
+h1 { color: #e74c3c; }
+button { 
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border-radius: 25px;
+}
+```
+
+#### 🐍 Python Execution
+```python
+# Full Python support with stdout capture
+print("Hello, World!")
+numbers = [1, 2, 3, 4, 5]
+print(f"Sum: {sum(numbers)}")
+```
+
+#### ⚡ JavaScript Debugging
+```javascript
+// Enhanced console.log handling
+const user = { name: "Alice", age: 25 };
+console.log("User data:", user); // Pretty-printed objects
+```
+
+#### 🎯 Keyboard Shortcuts
+- `Ctrl+Enter` - Run code
+- `Ctrl+S` - Save (placeholder)
+- `Ctrl+/` - Toggle comment (planned)
+
+---
+
+## 🏗️ Architecture
+
+```
+codeeditor-pro/
+├── frontend/                 # React application
+│   ├── src/
+│   │   ├── components/      # React components
+│   │   ├── hooks/          # Custom hooks
+│   │   └── styles/         # CSS files
+│   └── public/             # Static assets
+├── backend/                 # Node.js server
+│   ├── src/
+│   │   ├── routes/         # API endpoints
+│   │   ├── models/         # Database models
+│   │   └── middleware/     # Express middleware
+│   └── config/             # Configuration files
+└── docs/                   # Documentation
+```
+
+---
+
+## 🔧 Configuration
+
+### Environment Variables
+```bash
+# Backend Configuration
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/codeeditor
+REDIS_URL=redis://localhost:6379
+
+# Frontend Configuration  
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_WS_URL=ws://localhost:5000
+```
+
+### Customization
+- **Themes**: Modify CSS variables for color schemes
+- **Languages**: Add new language support via CodeMirror extensions
+- **Plugins**: Extend functionality with custom components
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how to get started:
+
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **Commit** your changes: `git commit -m 'Add amazing feature'`
+4. **Push** to the branch: `git push origin feature/amazing-feature`
+5. **Open** a Pull Request
+
+### Development Guidelines
+- Follow **ESLint** configuration
+- Write **meaningful commit messages**
+- Add **tests** for new features
+- Update **documentation** as needed
+
+---
+
+## 📊 Roadmap
+
+### Version 2.0 (Coming Soon)
+- [ ] **More Languages**: TypeScript, Rust, Go, Ruby
+- [ ] **File System**: Upload/download code files
+- [ ] **Code Sharing**: Public/private snippets
+- [ ] **Themes**: Light mode and custom themes
+- [ ] **Extensions**: Plugin system
+- [ ] **Mobile App**: React Native version
+
+### Version 3.0 (Future)
+- [ ] **AI Integration**: Code completion and suggestions
+- [ ] **Version Control**: Git integration
+- [ ] **Collaboration**: Video chat and screen sharing
+- [ ] **Deployment**: One-click deployment to various platforms
+
+---
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**Python not loading?**
+```bash
+# Check browser console for Pyodide loading errors
+# Ensure no ad-blockers are blocking CDN requests
+```
+
+**Backend connection failed?**
+```bash
+# Verify MongoDB and Redis are running
+# Check environment variables in .env file
+```
+
+**CSS not applying?**
+```bash
+# Clear browser cache
+# Check for CSS syntax errors in console
+```
+
+### Performance Tips
+- Use **Chrome/Edge** for best performance
+- Disable **ad-blockers** for Pyodide CDN
+- Close **unused browser tabs** for better memory
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **CodeMirror** - Amazing code editor component
+- **Pyodide** - Python in the browser
+- **React** - UI framework
+- **Express** - Backend framework
+- **MongoDB** - Database solution
+
+---
+
+## 📞 Support & Community
+
+- 📧 **Email**: support@codeeditor.pro
+- 💬 **Discord**: [Join our community](https://discord.gg/codeeditor)
+- 🐦 **Twitter**: [@CodeEditorPro](https://twitter.com/codeeditorpro)
+- 📱 **Issues**: [GitHub Issues](https://github.com/yourusername/codeeditor-pro/issues)
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if it helped you!**
+
+Made with ❤️ by [Your Name](https://github.com/yourusername)
+
+[![Backers](https://opencollective.com/codeeditor-pro/tiers/badge.svg)](https://opencollective.com/codeeditor-pro)
+
+</div>
+
+**Made with ❤️ by the CodeEditor Pro team**

@@ -1,0 +1,146 @@
+.code-editor-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-wrapper {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.status-bar {
+  background: #2a2a2a;
+  border-top: 1px solid #333;
+  padding: 0.25rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #51cf66;
+}
+
+.status-dot.error {
+  background: #ff6b6b;
+}
+
+.status-dot.running {
+  background: #74c0fc;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Split pane styles */
+.split-pane-container {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.pane {
+  height: 100%;
+  overflow: hidden;
+}
+
+.resizer {
+  width: 4px;
+  background: #333;
+  cursor: col-resize;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.resizer:hover {
+  background: #667eea;
+}
+
+.resizer::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 20px;
+  background: #666;
+  border-radius: 1px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.resizer:hover::before {
+  opacity: 1;
+}
+
+/* Theme variations */
+.theme-dark {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2a2a2a;
+  --bg-tertiary: #3a3a3a;
+  --text-primary: #ffffff;
+  --text-secondary: #999999;
+  --accent: #667eea;
+  --border: #333333;
+}
+
+.theme-light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --accent: #667eea;
+  --border: #dee2e6;
+}
+
+/* Font size controls */
+.font-size-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.font-size-btn {
+  background: #3a3a3a;
+  color: #ffffff;
+  border: 1px solid #555;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.font-size-btn:hover {
+  background: #4a4a4a;
+  border-color: #667eea;
+}
+
+.font-size-display {
+  font-size: 0.8rem;
+  color: #999;
+  min-width: 30px;
+  text-align: center;
+}
